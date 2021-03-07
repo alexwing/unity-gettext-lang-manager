@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
 
     public Font SourceFont;
     public Font SourcePixelFont;
+    public Material SunnyDaysMaterial;
     public List<string> Languages = new List<string>(){
                            "en", //English
                            "es", //Spanish
@@ -43,8 +44,10 @@ public class UIManager : MonoBehaviour
             switch (langText.name)
             {
                 case "test01":
-                    text = UILangManager.GetString("Sunny Days!", SourceFont, langText);
+                    text = UILangManager.GetString("Sunny Days!", SourceFont, langText, SunnyDaysMaterial);
+
                     langText.GetComponent<WarpTextEffect>().StartWarp();
+
                     break;
                 case "test02":
                     text = UILangManager.GetString("This is an example of using the TextMesh", SourcePixelFont, langText);
