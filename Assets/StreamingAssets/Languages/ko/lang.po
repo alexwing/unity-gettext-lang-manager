@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 18:47+0100\n"
+"PO-Revision-Date: 2021-03-07 19:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:43
+msgid "Sunny Days!"
+msgstr "화창한 날!"
+
+#: UIManager.cs:46
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"<#ff8000> 다중 </color>의 예\n"
+"작성된 텍스트의 <#00ff00> 줄 </color>\n"
+"<#80ff80> TextMesh <#8080ff> Pro </color>로!"
+
+#: UIManager.cs:49
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"다음은 <#ffffff> TextMesh <#40a0ff> Pro </color> </color> <#ffff00> maxVisibleCharacters </color> 및 <#ffff00> maxVisibleLines </color> 속성을 사용하여 문자 수를 제어하는 예입니다. 또는 텍스트 줄이 표시됩니다. <#80ff80> Reveal </color> 또는 <#80ff80> Teletype FX </color>를 만들거나 <#80ff80> 오래된 컴퓨터 터미널 </color>을 시뮬레이션하는 데 사용할 수 있습니다.\n"
+"\n"
+"이 구현은 문자열 조작을 포함하지 않으므로 할당이 필요하지 않습니다. 또한 단어가 드러날 때 단어가 잘리는 것을 방지하기 위해 자동 줄 바꿈과 함께 작동합니다. 또한 <#ffffff> TextMesh <#40a0ff> Pro </color> </color>에서 사용할 수있는 다양한 서식있는 텍스트 태그를 지원합니다."
+
+#: UIManager.cs:54
+msgid "This is a simple UI text"
+msgstr "이것은 간단한 UI 텍스트입니다."
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "우리에게 당신의 이름을 줘"
+
+#~ msgid "Danos tu email"
+#~ msgstr "이메일을 보내주세요"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "꽃병에 초점"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "SKYLIGHT에 초점"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "CHIMNEY에 초점"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr "잠수함 포털 및이를 통해 찾기"
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "벽에 집중"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "창에 초점"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "물체에 집중"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "사진을 받으려면 다음 정책에 동의해야합니다.\n"
+#~ "개인 정보 보호 및 방문 조건"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "잘못된 이름"
+
+#~ msgid "Email Invalido"
+#~ msgstr "잘못된 이메일"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "태블릿이 진동 할 때\n"
+#~ "목차 시작"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "어서 오십시오!\n"
+#~ "GAUDÍ의 천재를 즐기십시오"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "가자. 태블릿이 진동합니다\n"
+#~ "다음 콘텐츠"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "제발가\n"
+#~ "우리 직원들에게"
+
+#, fuzzy
+#~| msgid "Toma una foto"
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "사진을 찍다"
+
+#, fuzzy
+#~| msgid ""
+#~| "Más adelante te pediremos tu \n"
+#~| "email para mandarte las fotos ;)"
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "나중에 우리는 당신을 요구할 것입니다\n"
+#~ "당신에게 사진을 보내 이메일;)"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "이 데이터는 정확합니까?"
+
+#, fuzzy
+#~| msgid "NO QUIERO FOTOS"
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "사진을 원하지 않습니다"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "개인 정보 보호 정책에 동의하십니까?\n"
+#~ "및 방문 조건?"
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "사진이 삭제됩니다.\n"
+#~ "취소하려면 \"X\"를 누르십시오."
+
+#, fuzzy
+#~| msgid ""
+#~| "VAMOS A ENVIARTE TUS FOTOGRAFÍAS \n"
+#~| "POR CORREO ELECTRÓNICO"
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "사진을 보내 드리겠습니다\n"
+#~ "이메일을 통해"
+
+#, fuzzy
+#~| msgid ""
+#~| "TE HEMOS ENVIADO LAS FOTOS \n"
+#~| "TODAS TUS FOTOGRAFÍAS BORRADAS.\n"
+#~| "ESTA TABLET NO CONSERVARÁ NINGÚN DATO TUYO"
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "우리는 당신에게 사진을 보냈습니다\n"
+#~ "모든 사진이 삭제되었습니다.\n"
+#~ "이 태블릿은 귀하의 데이터를 보관하지 않습니다"
+
+#, fuzzy
+#~| msgid "AHORA TE RECOGEREMOS LA TABLET"
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr "이제 우리는 당신의 태블릿을 수집합니다"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr "사진을 어디로 보내시겠습니까?"
+
+#~ msgid "CARGANDO"
+#~ msgstr "로딩"
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "어서 오십시오"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "우리는 당신에게 통지합니다\n"
+#~ "AR이있을 때"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "회원과 대화\n"
+#~ "직원들로부터"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "이용 약관에 동의하십니까?"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "당신은 그들이 원하지 않습니까?\n"
+#~ "우리는 모든 사진을 삭제하려고합니다"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"

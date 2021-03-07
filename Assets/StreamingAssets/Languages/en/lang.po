@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 18:46+0100\n"
+"PO-Revision-Date: 2021-03-07 18:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:43
+msgid "Sunny Days!"
+msgstr "Sunny Days!"
+
+#: UIManager.cs:46
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"Example of <#ff8000>multiple</color>\n"
+"<#00ff00>lines</color> of text created\n"
+"with <#80ff80>TextMesh <#8080ff>Pro</color>!"
+
+#: UIManager.cs:49
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"This is an example of using the <#ffffff>TextMesh<#40a0ff>Pro</color></"
+"color> <#ffff00>maxVisibleCharacters</color> and <#ffff00>maxVisibleLines</"
+"color> properties to control how many characters or lines of text will be "
+"displayed. This can be used to create <#80ff80>Reveal</color> or "
+"<#80ff80>Teletype FX</color> or even to simulate an <#80ff80>Old Computer "
+"Terminal</color>.\n"
+"\n"
+"This implementation does not involve any string manipulations and thus is "
+"allocation free. It also works with word wrapping to avoid cutting off words "
+"as they are revealed. This also supports the numerous rich text tags "
+"available in <#ffffff>TextMesh<#40a0ff>Pro</color></color>."
+
+#: UIManager.cs:54
+msgid "This is a simple UI text"
+msgstr "This is a simple UI text"
+
+#~ msgid "test01"
+#~ msgstr "Sunny Days!"
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "Give us your name"
+
+#~ msgid "Danos tu email"
+#~ msgstr "Give us your email"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "FOCUS ON THE VASES"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "FOCUS ON THE SKYLIGHT"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "FOCUS ON THE CHIMNEY"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr "LOOK FOR THE UNDERWATER PORTAL AND GO THROUGH IT."
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "FOCUS ON THE WALL"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "FOCUS ON THE WINDOW"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "FOCUSES ON THE OBJECT"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "To receive your photos, you have to accept the Policy of\n"
+#~ "privacy and visit conditions"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "Invalid Name"
+
+#~ msgid "Email Invalido"
+#~ msgstr "Invalid Email"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "THE TABLET WILL VIBRATE WHEN\n"
+#~ "BEGIN THE CONTENTS"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "WELCOME!\n"
+#~ "ENJOY THE GENIUS OF GAUDÍ"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "LET YOURSELF GO. YOUR TABLET WILL VIBRATE\n"
+#~ "IN THE NEXT CONTENT"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "PLEASE, GO\n"
+#~ "TO OUR STAFF"
+
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "Press to take a photo"
+
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "Later we will ask you\n"
+#~ "your e - mail to send you your photos"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "ARE THESE DATA CORRECT?"
+
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "I DON'T WANT MY PHOTOS"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "DO YOU ACCEPT THE PRIVACY POLICY\n"
+#~ "AND CONDITIONS OF VISIT ?"
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "YOUR PHOTOS WILL BE DELETED.\n"
+#~ "TO CANCEL, PRESS \"X\"."
+
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "LET'S SEND YOU YOUR PHOTOS\n"
+#~ "BY EMAIL"
+
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "PHOTOS SENT!\n"
+#~ "THIS TABLET WILL NOT KEEP ANY DATA\n"
+#~ "OF YOURS."
+
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr ""
+#~ "THEN WE WILL PICK UP YOUR TABLET\n"
+#~ "OF YOURS"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr "WHERE DO YOU WANT THE PHOTOS TO BE SENT TO YOU?"
+
+#~ msgid "CARGANDO"
+#~ msgstr "LOADING"
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "WELCOME"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "WE WILL NOTIFY YOU \n"
+#~ "WHEN THERE IS AN AR"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "TALK TO A MEMBER \n"
+#~ "OF OUR STAFF"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "DO YOU ACCEPT THE TERMS AND CONDITIONS?"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "ARE YOU SURE YOU DON'T WANT THEM?\n"
+#~ " WE ARE GOING TO DELETE ALL YOUR PHOTOS"
+
+#~ msgid ""
+#~ " TE AVISAREMOS \n"
+#~ " CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ " WE WILL NOTIFY YOU \n"
+#~ "WHEN THERE IS AN AR"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"

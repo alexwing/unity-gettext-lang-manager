@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 18:54+0100\n"
+"PO-Revision-Date: 2021-03-07 19:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:43
+msgid "Sunny Days!"
+msgstr "Солнечные дни!"
+
+#: UIManager.cs:46
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"Пример <#ff8000>multiple</color>\n"
+"<#00ff00>строки</color> созданного текстас \n"
+"<#80ff80>TextMesh <#8080ff>Pro</color>"
+
+#: UIManager.cs:49
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"!Это пример использования свойств <#ffffff>TextMesh<#40a0ff>Pro</color></color> <#ffffff00>maxVisibleCharacters</color> и <#ffff00>maxVisibleLines</color> для управления количеством символов или строк текста. Это может быть использовано для создания <#80ff80>Reveal</color> или <#80ff80>Teletype FX</color> или даже для моделирования <#80ff80>Old Computer Terminal</color>.\n"
+"\n"
+"Эта реализация не требует никаких манипуляций со строками и, таким образом, не требует выделения. Она также работает со словарной оберткой, чтобы избежать отсечения слов по мере их выявления. Это также поддерживает многочисленные богатые текстовые теги, доступные в <#ffffff>TextMesh<#40a0ff>Pro</color></color>."
+
+#: UIManager.cs:54
+msgid "This is a simple UI text"
+msgstr "Это простой текст пользовательского интерфейса"
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "Дайте нам свое имя"
+
+#~ msgid "Danos tu email"
+#~ msgstr "Дайте нам свой адрес электронной почты"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "ОСНОВНОЕ ВНИМАНИЕ УДЕЛЯЮТ ВАЗАМ"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "СФОКУСИРОВАТЬСЯ НА СВЕТОВОМ ЛЮКЕ"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "СОСРЕДОТОЧИТЬСЯ НА ДЫМОХОДЕ"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr "ПОИЩИТЕ ПОДВОДНЫЙ ПОРТАЛ И ПРОЙДИТЕ ЧЕРЕЗ НЕГО."
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "ФОКУС НА СТЕНЕ"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "СФОКУСИРОВАТЬСЯ НА ОКНЕ"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "ФОКУС НА ОБЪЕКТЕ"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "Для того, чтобы получать свои фотографии, Вы должны принять Политику конфиденциальности и Условия \n"
+#~ "Политика конфиденциальности и правила и условия"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "Неправильное имя"
+
+#~ msgid "Email Invalido"
+#~ msgstr "Неверный адрес электронной почты"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "ПЛАНШЕТ БУДЕТ ВИБРИРОВАТЬ, КОГДА \n"
+#~ "СТАРТЫ КОНТЕНТАЖА"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "ВЕЛКОМ! \n"
+#~ "НАСЛАЖДАТЬСЯ ГЕНИЕМ ГАУДИ"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "ПОЗВОЛЬ СЕБЕ УВЛЕЧЬСЯ. ВАШ ПЛАНШЕТ БУДЕТ ВИБРИРОВАТЬ \n"
+#~ "СЛЕДУЮЩЕЕ СОДЕРЖАНИЕ"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "ПОЖАЛУЙСТА, ПОЖАЛУЙСТА \n"
+#~ "НАШ СТАФФ"
+
+#, fuzzy
+#~| msgid "Toma una foto"
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "Сфотографировать"
+
+#, fuzzy
+#~| msgid ""
+#~| "Más adelante te pediremos tu \n"
+#~| "email para mandarte las fotos ;)"
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "Позже мы попросим вас\n"
+#~ "по электронной почте, чтобы отправить вам фотографии;)"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "ПРАВИЛЬНО ЛИ ЭТИ ДАННЫЕ?"
+
+#, fuzzy
+#~| msgid "NO QUIERO FOTOS"
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "Я НЕ ХОЧУ ФОТОГРАФИЙ"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "ПРИНИМАЕТЕ ЛИ ВЫ ПОЛИТИКУ КОНФИДЕНЦИАЛЬНОСТИ \n"
+#~ "И УСЛОВИЯ ПОСЕЩЕНИЯ ? "
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "ВАШИ ФОТОГРАФИИ БУДУТ УДАЛЕНЫ. \n"
+#~ "ЧТОБЫ ОТМЕНИТЬ, НАЖМИТЕ \"Х\"."
+
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "МЫ ВЫШЛЕМ ВАМ ВАШИ ФОТОГРАФИИ \n"
+#~ "E - MAIL"
+
+#, fuzzy
+#~| msgid ""
+#~| "TE HEMOS ENVIADO LAS FOTOS \n"
+#~| "TODAS TUS FOTOGRAFÍAS BORRADAS.\n"
+#~| "ESTA TABLET NO CONSERVARÁ NINGÚN DATO TUYO"
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "МЫ ОТПРАВИЛИ ВАМ ФОТОГРАФИИ\n"
+#~ "ВСЕ ВАШИ ФОТОГРАФИИ УДАЛЕНЫ.\n"
+#~ "ЭТОТ ТАБЛЕТКА НЕ БУДЕТ ДЕРЖАТЬ ВАШИХ ДАННЫХ"
+
+#, fuzzy
+#~| msgid "AHORA TE RECOGEREMOS LA TABLET"
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr "ТЕПЕРЬ МЫ СОБИРАЕМ ВАШ ТАБЛЕТКУ"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr "КУДА ВЫ ХОТИТЕ, ЧТОБЫ МЫ ПРИСЛАЛИ ВАМ ФОТОГРАФИИ?"
+
+#~ msgid "CARGANDO"
+#~ msgstr "ЗАГРУЗКА"
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "Добро пожаловать"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "Мы уведомим вас\n"
+#~ "КОГДА ЕСТЬ АР"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "ГОВОРЯТ ЧЛЕНУ\n"
+#~ "ОТ НАШИХ ПЕРСОНАЛА"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "ВЫ ПРИНИМАЕТЕ УСЛОВИЯ?"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "ВЫ УВЕРЕНЫ, ЧТО ВЫ НЕ ХОТИТЕ ИХ?\n"
+#~ "Мы собираемся удалить все ваши фотографии"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"

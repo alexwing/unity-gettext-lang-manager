@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 19:08+0100\n"
+"PO-Revision-Date: 2021-03-07 19:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:43
+msgid "Sunny Days!"
+msgstr "阳光灿烂的日子!"
+
+#: UIManager.cs:46
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"这是一个使用 <#ffffff>TextMesh<#40a0ff>Pro</color></color> <#ffff00>maxVisibleCharacters</color> 和 <#ffff00>maxVisibleLines</color> 属性来控制文本将显示多少字符或行数的例子。这可以用来创建<#80ff80>Reveal</color>或<#80ff80>Teletype FX</color>甚至模拟<#80ff80>Old Computer Terminal</color>。\n"
+"\n"
+"这个实现不涉及任何字符串操作，因此是免分配的。它还可以使用单词包装来避免在显示单词时切断它们。这也支持<#ffffff>TextMesh<#40a0ff>Pro</color>中提供的大量富文本标签。"
+
+#: UIManager.cs:49
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"<#ff8000>多色</color>的例子。\n"
+"<#00ff00>行</color>的文本创建。\n"
+"用 <#80ff80>TextMesh <#8080ff>Pro</color>!"
+
+#: UIManager.cs:54
+msgid "This is a simple UI text"
+msgstr "这是一个简单的UI文本"
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "给我们你的名字"
+
+#~ msgid "Danos tu email"
+#~ msgstr "给我们您的电子邮件"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "关注花瓶"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "聚焦天空之光"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "聚焦烟囱"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr "寻找水下通道并通过它。"
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "关注墙面"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "关注窗口"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "专注于目标"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "为了接收您的照片，您必须接受隐私政策和条款。\n"
+#~ "隐私政策和条款和条件"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "名称无效"
+
+#~ msgid "Email Invalido"
+#~ msgstr "不合规电邮"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "当以下情况发生时，平板电脑将产生振动。\n"
+#~ "内容开始"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "欢迎！\n"
+#~ "欣赏高迪的天才之作"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "让你自己被带走。您的平板电脑将焕发活力 \n"
+#~ "下一篇文章"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "请联系 \n"
+#~ "致我们的员工"
+
+#, fuzzy
+#~| msgid "Toma una foto"
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "拍张照片"
+
+#, fuzzy
+#~| msgid ""
+#~| "Más adelante te pediremos tu \n"
+#~| "email para mandarte las fotos ;)"
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "稍后我们会要求您\n"
+#~ "电子邮件将照片发送给您；）"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "这些数据正确吗？"
+
+#, fuzzy
+#~| msgid "NO QUIERO FOTOS"
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "我不想要照片"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "你是否接受隐私政策 \n"
+#~ "和访问条件 ? "
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "您的照片将被删除。\n"
+#~ "要取消，请按 \"X\"。"
+
+#, fuzzy
+#~| msgid ""
+#~| "VAMOS A ENVIARTE TUS FOTOGRAFÍAS \n"
+#~| "POR CORREO ELECTRÓNICO"
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "我们将发送您的照片\n"
+#~ "通过电子邮件"
+
+#, fuzzy
+#~| msgid ""
+#~| "TE HEMOS ENVIADO LAS FOTOS \n"
+#~| "TODAS TUS FOTOGRAFÍAS BORRADAS.\n"
+#~| "ESTA TABLET NO CONSERVARÁ NINGÚN DATO TUYO"
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "我们已将照片发送给您\n"
+#~ "您所有的照片已删除。\n"
+#~ "此平板电脑将不会保留您的任何数据"
+
+#, fuzzy
+#~| msgid "AHORA TE RECOGEREMOS LA TABLET"
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr "现在我们将收集您的平板电脑"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr "你想让我们把照片发到哪里去？"
+
+#~ msgid "CARGANDO"
+#~ msgstr "载入中"
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "载入中"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "我们会通知您\n"
+#~ "什么时候有AR"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "与会员交谈\n"
+#~ "来自我们的员工"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "您接受条款和条件吗？"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "确定要不要吗？\n"
+#~ "我们将删除您的所有照片"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"

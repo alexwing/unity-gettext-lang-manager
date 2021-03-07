@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 18:46+0100\n"
+"PO-Revision-Date: 2021-03-07 19:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:43
+msgid "Sunny Days!"
+msgstr "¡Días soleados!"
+
+#: UIManager.cs:46
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"Ejemplo de <#ff8000>múltiple</color>\n"
+"<#00ff00>líneas</color> de texto creadas\n"
+"¡con <#80ff80>TextMesh <#8080ff>Pro</color>!"
+
+#: UIManager.cs:49
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"Este es un ejemplo del uso de las propiedades <#ffffff>TextMesh<#40a0ff>Pro</"
+"color></color> <#ffff00>maxVisibleCharacters</color> y "
+"<#ffff00>maxVisibleLines</color> para controlar cuántos caracteres o líneas "
+"de texto se mostrarán. Esto se puede utilizar para crear <#80ff80>Reveal</"
+"color> o <#80ff80>Teletype FX</color> o incluso para simular un "
+"<#80ff80>Terminal de ordenador antiguo</color>.\n"
+"\n"
+"Esta implementación no implica ninguna manipulación de cadenas y, por tanto, "
+"está libre de asignaciones. También funciona con la envoltura de palabras "
+"para evitar que se corten a medida que se revelan. También soporta las "
+"numerosas etiquetas de texto enriquecido disponibles en "
+"<#ffffff>TextMesh<#40a0ff>Pro</color></color>."
+
+#: UIManager.cs:54
+msgid "This is a simple UI text"
+msgstr "Este es un simple texto de interfaz de usuario"
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "Escribe tu nombre"
+
+#~ msgid "Danos tu email"
+#~ msgstr "Escribe tu e-mail"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "ENFOCA A LOS JARRONES"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "ENFOCA A LA CLARABOYA"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "ENFOCA A LA CHIMENEA"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr ""
+#~ "BUSCA EL PORTAL SUBMARINO \n"
+#~ "Y ATRAVIÉSALO"
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "ENFOCA A LA PARED"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "ENFOCA AL VENTANAL"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "ENFOCA AL OBJETO"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "Nombre no válido"
+
+#~ msgid "Email Invalido"
+#~ msgstr "E-mail no válido"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "Pulsa para tomar una foto"
+
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e-mail para enviarte tus fotos"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "¿SON CORRECTOS ESTOS DATOS?"
+
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "NO QUIERO MIS FOTOS"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E-MAIL"
+
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr ""
+#~ "¿DONDE QUIERES QUE TE \n"
+#~ "ENVIEMOS LAS FOTOS?"
+
+#~ msgid "ATRAVIESA EL PORTAL"
+#~ msgstr ""
+#~ "BUSCA EL PORTAL SUBMARINO \n"
+#~ "Y ATRAVIÉSALO"
+
+#, fuzzy
+#~| msgid "Danos tu email"
+#~ msgid "Danos tu apellido"
+#~ msgstr "Escribe tu e-mail"
+
+#, fuzzy
+#~| msgid "Email Invalido"
+#~ msgid "Apellido Invalido"
+#~ msgstr "E-mail no válido"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR.TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "DÉJATE LLEVAR.TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+
+#~ msgid "CARGANDO"
+#~ msgstr "CARGANDO"
+
+#~ msgid "DenegarCondicionUso"
+#~ msgstr ""
+#~ "Para recibir tus fotos, \n"
+#~ "tienes que aceptar el aviso legal."
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "BIENVENIDO"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ " VAMOS A BORRAR TODAS TUS FOTOS"
+
+#~ msgid ""
+#~ " TE AVISAREMOS \n"
+#~ " CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ " TE AVISAREMOS  \n"
+#~ "CUANDO HAYA UN AR"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"

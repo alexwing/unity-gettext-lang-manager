@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-07 18:18+0100\n"
+"PO-Revision-Date: 2021-03-07 19:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../../Scripts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UIManager.cs:34
+msgid "Sunny Days!"
+msgstr "サニーデイズ!"
+
+#: UIManager.cs:37
+msgid "Example of multiple linesof text created with TextMeshPro!"
+msgstr ""
+"<#ff8000>マルチプル</color>の例\n"
+"<#00ff00>作成されたテキストの行</color>。\n"
+"with <#80ff80>TextMesh <#8080ff>Pro</color>!"
+
+#: UIManager.cs:40
+msgid "This is an example of using the TextMesh"
+msgstr ""
+"これは、<#ffffff>TextMesh<#40a0ff>Pro</color></color> "
+"<#ffff00>maxVisibleCharacters</color>および"
+"<#ffff00>maxVisibleLines</color>プロパティを使用して、表示される"
+"テキストの文字数や行数を制御する例です。これは、"
+"<#80ff80>Reveal</color>や<#80ff80>Teletype FX</color>を作成する"
+"ため、あるいは<#80ff80>古いコンピュータ端末</color>をシミュレー"
+"トするためにも使用できます。\n"
+"\n"
+"この実装は文字列操作を一切行わないので、アロケーションフリーで"
+"す。また、単語が明らかになったときに単語が切り取られるのを避ける"
+"ために、単語の折り返しを使って動作します。これはまた、"
+"<#ffffff>TextMesh<#40a0ff>Pro</color></color>で利用可能な多数の"
+"リッチテキストタグもサポートしています。"
+
+#: UIManager.cs:45
+msgid "This is a simple UI text"
+msgstr "これはシンプルなUIのテキスト"
+
+#~ msgid "Danos tu nombre"
+#~ msgstr "名前を教えて"
+
+#~ msgid "Danos tu email"
+#~ msgstr "メールをください"
+
+#~ msgid "ENFOCA A LOS JARRONES"
+#~ msgstr "花瓶に焦点を当てる"
+
+#~ msgid "ENFOCA A LA CLARABOYA"
+#~ msgstr "スカイライトに焦点を当てる"
+
+#~ msgid "ENFOCA A LA CHIMENEA"
+#~ msgstr "煙突に焦点を当てる"
+
+#~ msgid "BUSCA EL PORTAL SUBMARINO Y ATRAVIÉSALO"
+#~ msgstr "水中ポータルを探して、そこを通ってください。"
+
+#~ msgid "ENFOCA A LA PARED"
+#~ msgstr "壁に焦点を当てる"
+
+#~ msgid "ENFOCA AL VENTANAL"
+#~ msgstr "ウィンドウに焦点を当てる"
+
+#~ msgid "ENFOCA AL OBJETO"
+#~ msgstr "対象に焦点を当てる"
+
+#~ msgid ""
+#~ "Para recibir tus fotos, tienes que aceptar la Política de \n"
+#~ "privacidad y las Condiciones de visita"
+#~ msgstr ""
+#~ "写真を受け取るためには、プライバシーポリシーと利用規約に同意"
+#~ "する必要があります。\n"
+#~ "個人情報保護方針と利用規約"
+
+#~ msgid "Nombre Invalido"
+#~ msgstr "無効な名前"
+
+#~ msgid "Email Invalido"
+#~ msgstr "無効なメール"
+
+#~ msgid ""
+#~ "LA TABLET VIBRARA CUANDO \n"
+#~ "COMIENCEN LOS CONTENIDOS"
+#~ msgstr ""
+#~ "タブレットは、次のようなときに振動します。\n"
+#~ "コンテンツ開始"
+
+#~ msgid ""
+#~ "¡BIENVENIDO! \n"
+#~ "DISFRUTA DEL GENIO DE GAUDÍ"
+#~ msgstr ""
+#~ "ようこそ！\n"
+#~ "ガウディの天才を楽しむ"
+
+#~ msgid ""
+#~ "DÉJATE LLEVAR. TU TABLET VIBRARÁ \n"
+#~ "EN EL PRÓXIMO CONTENIDO"
+#~ msgstr ""
+#~ "自分自身を運び去らせてください。あなたのタブレットは生き生き"
+#~ "としています。\n"
+#~ "次のコンテンツへ"
+
+#~ msgid ""
+#~ "POR FAVOR, DIRÍGETE \n"
+#~ "A NUESTRO STAFF"
+#~ msgstr ""
+#~ "お問い合わせ \n"
+#~ "スタッフへ"
+
+#~ msgid "Pulsa para tomar una foto"
+#~ msgstr "クリックして写真を撮る"
+
+#, fuzzy
+#~| msgid ""
+#~| "Más adelante te pediremos tu \n"
+#~| "email para mandarte las fotos ;)"
+#~ msgid ""
+#~ "Más adelante te pediremos \n"
+#~ "tu e - mail para enviarte tus fotos"
+#~ msgstr ""
+#~ "後でお願いします\n"
+#~ "あなたに写真を送るためのメール;）"
+
+#~ msgid "¿SON CORRECTOS ESTOS DATOS?"
+#~ msgstr "これらのデータは正しいですか？"
+
+#, fuzzy
+#~| msgid "NO QUIERO FOTOS"
+#~ msgid "NO QUIERO MIS FOTOS"
+#~ msgstr "写真が欲しくない"
+
+#~ msgid ""
+#~ "¿ACEPTAS LA POLÍTICA DE PRIVACIDAD \n"
+#~ "Y CONDICIONES DE VISITA ? "
+#~ msgstr ""
+#~ "個人情報保護方針に同意しますか \n"
+#~ "と訪問条件 ? "
+
+#~ msgid ""
+#~ "TUS FOTOS SE BORRARÁN. \n"
+#~ "PARA CANCELAR, PULSA \"X\"."
+#~ msgstr ""
+#~ "あなたの写真は削除されます。\n"
+#~ "キャンセルするには、\"X \"を押します。"
+
+#, fuzzy
+#~| msgid ""
+#~| "VAMOS A ENVIARTE TUS FOTOGRAFÍAS \n"
+#~| "POR CORREO ELECTRÓNICO"
+#~ msgid ""
+#~ "VAMOS A ENVIARTE TUS FOTOS \n"
+#~ "POR E - MAIL"
+#~ msgstr ""
+#~ "私たちはあなたにあなたの写真を送ります\n"
+#~ "メールで"
+
+#, fuzzy
+#~| msgid ""
+#~| "TE HEMOS ENVIADO LAS FOTOS \n"
+#~| "TODAS TUS FOTOGRAFÍAS BORRADAS.\n"
+#~| "ESTA TABLET NO CONSERVARÁ NINGÚN DATO TUYO"
+#~ msgid ""
+#~ "¡FOTOS ENVIADAS! \n"
+#~ "ESTA TABLET NO CONSERVARÁ NINGÚN DATO \n"
+#~ "TUYO."
+#~ msgstr ""
+#~ "私たちはあなたに写真を送りました\n"
+#~ "すべての写真が削除されました。\n"
+#~ "このタブレットはあなたのデータを保持しません"
+
+#, fuzzy
+#~| msgid "AHORA TE RECOGEREMOS LA TABLET"
+#~ msgid "A CONTINUACIÓN RECOGEREMOS TU TABLET"
+#~ msgstr "今私たちはあなたのタブレットを収集します"
+
+#~ msgid "¿DONDE QUIERES QUE TE ENVIEMOS LAS FOTOS?"
+#~ msgstr "写真はどこに送ればいいですか？"
+
+#~ msgid "CARGANDO"
+#~ msgstr "読み込み中"
+
+#~ msgid "BIENVENIDO"
+#~ msgstr "ようこそ"
+
+#~ msgid ""
+#~ "TE AVISAREMOS \n"
+#~ "CUANDO HAYA UN AR"
+#~ msgstr ""
+#~ "私たちはあなたに通知します\n"
+#~ "ARがある場合"
+
+#~ msgid ""
+#~ "HABLA CON UN MIEMBRO \n"
+#~ "DE NUESTRO STAFF"
+#~ msgstr ""
+#~ "メンバーに話しかける\n"
+#~ "スタッフから"
+
+#~ msgid "¿ACEPTAS LOS TÉRMINOS Y CONDICIONES?"
+#~ msgstr "利用規約に同意しますか？"
+
+#~ msgid ""
+#~ "¿SEGURO QUE NO LAS QUIERES? \n"
+#~ "VAMOS A BORRAR TODAS TUS FOTOS"
+#~ msgstr ""
+#~ "あなたはそれらを望まないのですか？\n"
+#~ "写真をすべて削除します"
+
+#~ msgid "LOADING"
+#~ msgstr "CARGANDO"
