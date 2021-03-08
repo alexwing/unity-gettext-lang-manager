@@ -2,6 +2,7 @@
 
 Unity implementation of the NGettext library
 
+![unity-gettext-lang-manager](res/screenshot.gif)
 
 ## NGettext 
 
