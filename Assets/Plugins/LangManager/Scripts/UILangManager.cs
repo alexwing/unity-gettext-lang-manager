@@ -32,5 +32,13 @@ namespace LangManager
             langText.text = text;
             return text;
         }
+
+        public static string GetString(string text, Font @SourceFont, TextMesh @langText)
+        {
+            text = LanguageManager.catalog.GetString(text);
+            langText.font = SourceFont;
+            langText.text = text;
+            return text;
+        }
     }
 }
