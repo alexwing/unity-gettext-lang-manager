@@ -12,8 +12,6 @@ The versatility of this project lies in being able to apply multi-language to bo
 
 It also allows you to assign materials at runtime with which you can make any kind of #WordArt.
 
-I'm considering extending the project to add new features that I have in mind and even create a paid version in the Unity Asset Store. What do you recommend?
-
 ## NGettext 
 
 A cross-platform .NET implementation of the GNU/Gettext library.
