@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
 
+
 namespace LangManager
 {
     public class LanguageManager : MonoBehaviour
@@ -19,6 +20,9 @@ namespace LangManager
 
         public static bool langChangeComplete = false;
 
+
+        // Static global event to notify damage on any entity
+        static public event Action<String, float> EventEntityDamage;
 
         void Awake()
         {
@@ -47,6 +51,7 @@ namespace LangManager
         {
             LoadLang(lang);
             await WaitUntil(() => langChangeComplete);
+
         }
 
         public static async Task WaitUntil(Func<bool> condition, int waitTimeMs = 25)
@@ -87,7 +92,7 @@ namespace LangManager
                 Debug.Log($"Language [{ lang }] selected");
                 CurrentLang = lang;
                 langChangeComplete = true;
-               // UILangManager.UpdateLang();
+                EventManager.TriggerEvent("LangChanged");
             }
 
         }

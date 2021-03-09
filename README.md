@@ -12,7 +12,15 @@ The versatility of this project lies in being able to apply multi-language to bo
 
 It also allows you to assign materials at runtime with which you can make any kind of #WordArt.
 
-I'm considering extending the project to add new features that I have in mind and even create a paid version in the Unity Asset Store. What do you recommend?
+
+### Asign Font charset to SDF FONTS
+
+Al crear los mapas de caracteres en tiempo de ejecución nos evitamos la necesidad de crear una fuente SDF, con el charset de cada pais.
+
+Obviamente esto tiene un coste en memoria y rendimiento, pero en aplicaciones que necesiten un multilenguaje muy avanzado será necesario implementar algo así.
+
+En esta página se puede encontrar las referencias para cada idioma, Character Code Charts http://unicode.org/charts/
+
 
 ## NGettext 
 
