@@ -8,7 +8,7 @@ Unity3d project for language handling, based on gettext which is the GNU interna
 
 For this I have used NGettext A cross-platform .NET implementation of the GNU / Gettext library. (https://github.com/VitaliiTsilnyk/NGettext)
 
-The versatility of this project lies in being able to apply multi-language to both the #TeshMeshPro component and the standard #Unity Text, being easily extendable to any kind of component. In addition, a very important point is being able to manage languages with tools such as #Poedit.
+The versatility of this project lies in being able to apply multi-language to both the TeshMeshPro component and the standard Unity Text, being easily extendable to any kind of component. In addition, a very important point is being able to manage languages with tools such as #Poedit.
 
 It also allows you to assign materials at runtime with which you can make any kind of #WordArt.
 
@@ -20,7 +20,6 @@ Al crear los mapas de caracteres en tiempo de ejecución nos evitamos la necesid
 Obviamente esto tiene un coste en memoria y rendimiento, pero en aplicaciones que necesiten un multilenguaje muy avanzado será necesario implementar algo así.
 
 En esta página se puede encontrar las referencias para cada idioma, Character Code Charts http://unicode.org/charts/
-
 
 ## NGettext 
 
