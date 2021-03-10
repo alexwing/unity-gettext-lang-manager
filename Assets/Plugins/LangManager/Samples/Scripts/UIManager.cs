@@ -55,7 +55,7 @@ public class UIManager : MonoBehaviour
     }
     private void Start()
     {
-        LanguageManager.LoadLang("ja");
+        LanguageManager.LoadLang("en");
     }
     public void NextLang()
     {

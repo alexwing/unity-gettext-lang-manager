@@ -44,6 +44,6 @@ public class TextMeshProLang : TextMeshPro
     public async Task UpdateLangAsync()
     {
         await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
-        text = UILangManager.GetString(LangKeyValue, font, this);
+        text = UILangManager.GetString(LangKeyValue, font, this,fontMaterial);
     }
 }
