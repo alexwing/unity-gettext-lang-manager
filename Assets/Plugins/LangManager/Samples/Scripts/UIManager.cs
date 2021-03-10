@@ -1,5 +1,6 @@
 ﻿using LangManager;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,30 +15,23 @@ public class UIManager : MonoBehaviour
     public Font SourceFont;
     public Font SourcePixelFont;
     public Material SunnyDaysMaterial;
-    public List<string> Languages = new List<string>(){
-                           "en", //English
-                           "es", //Spanish
-                           "ja", //Japanese
-                           "ko", //Korean
-                           "ru", //Russian
-                           "zh", //Chinese
-                           };
 
-    private readonly NavigationList<string> LanguagesList = new NavigationList<string>();
 
     public void Awake()
     {
-        //make navigation language list
-        foreach (string str in Languages)
-        {
-            LanguagesList.Add(str);
-        }
+        EventManager.StartListening("LangChanged", UpdateLang);
     }
-    public async void UpdateLang(string lang)
-    {
-        await LanguageManager.LoadLangAsync(lang);
 
-        currentLang.text = $"Language [{ lang }]";
+    private void UpdateLang()
+    {
+        _ = UpdateLangAsync();
+    }
+
+    public async Task UpdateLangAsync()
+    {
+        await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
+
+        currentLang.text = $"Language [{ LanguageManager.LanguagesList.Current }]";
         string text = "";
         foreach (TMP_Text langText in texts)
         {
@@ -45,9 +39,7 @@ public class UIManager : MonoBehaviour
             {
                 case "test01":
                     text = UILangManager.GetString("Sunny Days!", SourceFont, langText, SunnyDaysMaterial);
-
                     langText.GetComponent<WarpTextEffect>().StartWarp();
-
                     break;
                 case "test02":
                     text = UILangManager.GetString("This is an example of using the TextMesh", SourcePixelFont, langText);
@@ -63,15 +55,15 @@ public class UIManager : MonoBehaviour
     }
     private void Start()
     {
-        UpdateLang(LanguagesList.Current);
+        LanguageManager.LoadLang("ja");
     }
     public void NextLang()
     {
-        UpdateLang(LanguagesList.MoveNext);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.MoveNext);
     }
 
     public void PrevLang()
     {
-        UpdateLang(LanguagesList.MovePrevious);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.MovePrevious);
     }
 }

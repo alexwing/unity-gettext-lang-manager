@@ -1,5 +1,6 @@
 ﻿using LangManager;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,34 +12,30 @@ public class UIManager3D : MonoBehaviour
     public TextMesh simpletext;
     public Text currentLang;
 
+    public TextMeshProLang textMeshProLang;
+
     public Font TitleFont;
     public Font TitleFontDetail;
     public Material TitleMaterial;
     public Material TitleMaterialDetail;
-    public List<string> Languages = new List<string>(){
-                           "en", //English
-                           "es", //Spanish
-                           "ja", //Japanese
-                           "ko", //Korean
-                           "ru", //Russian
-                           "zh", //Chinese
-                           };
-
-    private readonly NavigationList<string> LanguagesList = new NavigationList<string>();
 
     public void Awake()
     {
-        //make navigation language list
-        foreach (string str in Languages)
-        {
-            LanguagesList.Add(str);
-        }
+        textMeshProLang.GetString("This is a simple UI text");
+        EventManager.StartListening("LangChanged", UpdateLang);
     }
-    public async void UpdateLang(string lang)
-    {
-        await LanguageManager.LoadLangAsync(lang);
 
-        currentLang.text = $"Language [{ lang }]";
+
+    private void UpdateLang()
+    {
+        _ = UpdateLangAsync();
+    }
+
+    public async Task UpdateLangAsync()
+    {
+        await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
+
+        currentLang.text = $"Language [{ LanguageManager.LanguagesList.Current }]";
         string text = "";
         foreach (TMP_Text langText in texts)
         {
@@ -51,23 +48,23 @@ public class UIManager3D : MonoBehaviour
                     text = UILangManager.GetString("This is a simple UI text", TitleFontDetail, langText, TitleMaterialDetail);
                     break;
 
-            }            
-           // Debug.Log($"{langText.name} change to {text}");
+            }
+            // Debug.Log($"{langText.name} change to {text}");
         }
         text = UILangManager.GetString("This is a simple UI text", TitleFont, simpletext);
-       // Debug.Log($"{simpletext.name} change to {text}");
+        // Debug.Log($"{simpletext.name} change to {text}");
     }
     private void Start()
     {
-        UpdateLang(LanguagesList.Current);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.Current);
     }
     public void NextLang()
     {
-        UpdateLang(LanguagesList.MoveNext);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.MoveNext);
     }
 
     public void PrevLang()
     {
-        UpdateLang(LanguagesList.MovePrevious);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.MovePrevious);
     }
 }

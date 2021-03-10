@@ -6,26 +6,38 @@ using System;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
-
+using System.Collections.Generic;
 
 namespace LangManager
 {
     public class LanguageManager : MonoBehaviour
     {
 
+        public List<string> Languages = new List<string>(){
+                           "en", //English
+                           "es", //Spanish
+                           "ja", //Japanese
+                           "ko", //Korean
+                           "ru", //Russian
+                           "zh", //Chinese
+                           };
+
+        public static readonly LanguageNavigationList<string> LanguagesList = new LanguageNavigationList<string>();
+
         public static ICatalog catalog = new Catalog();
-        public static string CurrentLang = "es";
 
         public static LanguageManager instance;
 
         public static bool langChangeComplete = false;
 
 
-        // Static global event to notify damage on any entity
-        static public event Action<String, float> EventEntityDamage;
-
         void Awake()
         {
+            //make navigation language list
+            foreach (string str in Languages)
+            {
+                LanguagesList.Add(str);
+            }
             if (instance == null)
             {
                 instance = this;
@@ -62,6 +74,7 @@ namespace LangManager
             }
         }
 
+        [Obsolete]
         public IEnumerator LoadLandCoroutine(string lang)
         {
             langChangeComplete = false;
@@ -78,19 +91,15 @@ namespace LangManager
             }
             else
             {
-                // Show results as text
-                // Debug.Log(www.downloadHandler.text);
-
-                // Or retrieve results as binary data
                 byte[] results = www.downloadHandler.data;
 
                 Stream moFileStream = new MemoryStream(results);
 
                 catalog = new Catalog(moFileStream, new CultureInfo(lang));
-                
 
-                Debug.Log($"Language [{ lang }] selected");
-                CurrentLang = lang;
+                LanguagesList.Select(lang);
+
+                Debug.Log($"Language [{ LanguagesList.Current }] selected");
                 langChangeComplete = true;
                 EventManager.TriggerEvent("LangChanged");
             }
