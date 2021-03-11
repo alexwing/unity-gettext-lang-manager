@@ -16,10 +16,15 @@ namespace LangManager
         public List<string> Languages = new List<string>(){
                            "en", //English
                            "es", //Spanish
+                           "ar", //Arabic
                            "ja", //Japanese
                            "ko", //Korean
                            "ru", //Russian
                            "zh", //Chinese
+                           };
+
+        public List<string> RTLLanguages = new List<string>(){
+                           "ar", //Arabic
                            };
 
         public static readonly LanguageNavigationList<string> LanguagesList = new LanguageNavigationList<string>();

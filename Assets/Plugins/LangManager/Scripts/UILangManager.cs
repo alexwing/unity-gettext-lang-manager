@@ -21,6 +21,7 @@ namespace LangManager
                 material.mainTexture = m_FontAsset.material.mainTexture;
                 m_FontAsset.material = material;
             }
+            @langText.isRightToLeftText = LanguageManager.instance.RTLLanguages.Contains(LanguageManager.LanguagesList.Current);
 
             langText.font = m_FontAsset;
             langText.text = text;
@@ -38,6 +39,12 @@ namespace LangManager
                 material.mainTexture =  m_FontAsset.material.mainTexture;
                 m_FontAsset.material = material;
             }
+
+    
+            @langText.isRightToLeftText = LanguageManager.instance.RTLLanguages.Contains(LanguageManager.LanguagesList.Current);
+
+
+
             langText.font = m_FontAsset;
             langText.text = text;
             return text;

@@ -434,8 +434,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Ultimate Text Solution for Unity
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e6b276ec991f467aa14ef1f3cc665993, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 19ef5f6cbf8220a4284fd64956ec6991, type: 2}
+  m_sharedMaterial: {fileID: -3170190818180007337, guid: 19ef5f6cbf8220a4284fd64956ec6991,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -522,7 +523,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e6b276ec991f467aa14ef1f3cc665993, type: 2}
+  - {fileID: -3170190818180007337, guid: 19ef5f6cbf8220a4284fd64956ec6991, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -596,10 +597,13 @@ MonoBehaviour:
   Languages:
   - en
   - es
+  - ar
   - ja
   - ko
   - ru
   - zh
+  RTLLanguages:
+  - ar
 --- !u!114 &155569053
 MonoBehaviour:
   m_ObjectHideFlags: 0
