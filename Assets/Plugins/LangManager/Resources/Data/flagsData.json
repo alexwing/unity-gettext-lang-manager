@@ -1,0 +1,9 @@
+{"Items":[
+    {"code":"en","name":"English","flagName":"gb-nir"},
+    {"code":"es","name":"Spanish","flagName":"es"},
+    {"code":"ar","name":"Arabic","flagName":"sa"},
+    {"code":"ja","name":"Japanese","flagName":"jp"},
+    {"code":"ko","name":"Korean","flagName":"kr"},
+    {"code":"ru","name":"Russian","flagName":"ru"},
+    {"code":"zh","name":"Chinese","flagName":"cn"}
+    ]}

@@ -34,6 +34,9 @@ namespace LangManager
         public static LanguageManager instance;
 
         public static bool langChangeComplete = false;
+        public  bool LeftToRightRTL = false;
+        public  bool ArabicShowTaskkeel = false;
+        public  bool ArabicUseHinduNumbers = false;
 
 
         void Awake()

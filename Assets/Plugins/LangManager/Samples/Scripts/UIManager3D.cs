@@ -51,7 +51,7 @@ public class UIManager3D : MonoBehaviour
             }
             // Debug.Log($"{langText.name} change to {text}");
         }
-        text = UILangManager.GetString("This is a simple UI text", TitleFont, simpletext);
+        text = UILangManager.GetString("This is a simple UI text", TitleFontDetail, simpletext);
         // Debug.Log($"{simpletext.name} change to {text}");
     }
     private void Start()

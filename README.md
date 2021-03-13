@@ -10,18 +10,33 @@ For this I have used NGettext A cross-platform .NET implementation of the GNU / 
 
 The versatility of this project lies in being able to apply multi-language to both the TeshMeshPro component and the standard Unity Text, being easily extendable to any kind of component. In addition, a very important point is being able to manage languages with tools such as #Poedit.
 
-It also allows you to assign materials at runtime with which you can make any kind of #WordArt.
+It also allows you to assign materials at runtime with which you can make any kind of WordArt.
+
+Language flags code based on https://github.com/siberder/UnityCountryFlags
+
+Icons Flags from https://github.com/hampusborgos/country-flags
+
+### TODO
+
+- Custom font by language
+- Data json configure custom font
+- Data json define rtl languages
+- Add more public fonts 
+
+### Arabic Support
+
+Initially the correct approach is to use TeshMeshPro's RTL support, but this contains errors when interpreting Arabic words. To solve this problem, we have opted for Abdullah Al-Imam's ArabicSupport library, https://github.com/AbdullahAlimam/Arabic-Support-for-Unity-UI, which seems to have all the necessary corrections to support the Arabic language, without the need to use RTL.
 
 
 ### Asign Font charset to SDF FONTS
 
-Al crear los mapas de caracteres en tiempo de ejecución nos evitamos la necesidad de crear una fuente SDF, con el charset de cada pais.
+By creating the character maps at runtime we avoid the need to create an SDF font, with the charset of each country.
 
-Obviamente esto tiene un coste en memoria y rendimiento, pero en aplicaciones que necesiten un multilenguaje muy avanzado será necesario implementar algo así.
+Obviously this has a cost in memory and performance, but in applications that need a very advanced multilanguage it will be necessary to implement something like this.
 
-En esta página se puede encontrar las referencias para cada idioma, Character Code Charts http://unicode.org/charts/
+In this page you can find the references for each language, Character Code Charts http://unicode.org/charts/
 
-## NGettext 
+## What is NGettext?
 
 A cross-platform .NET implementation of the GNU/Gettext library.
 
