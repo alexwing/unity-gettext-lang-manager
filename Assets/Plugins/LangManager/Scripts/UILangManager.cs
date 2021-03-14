@@ -98,7 +98,7 @@ namespace LangManager
             {
                 text = ArabicSupport.ArabicFixer.Fix(text, LanguageManager.instance.ArabicShowTaskkeel, LanguageManager.instance.ArabicUseHinduNumbers);
             }
-
+/*
             if (LanguageManager.instance.LeftToRightRTL)
             {
                 if (@langText.alignment != TextAlignment.Center)
@@ -111,6 +111,7 @@ namespace LangManager
 
                 }
             }
+*/
             return text;
         }
 
@@ -122,10 +123,10 @@ namespace LangManager
             {
                 text = ReverseString(ArabicSupport.ArabicFixer.Fix(text, LanguageManager.instance.ArabicShowTaskkeel, LanguageManager.instance.ArabicUseHinduNumbers));
             }
-
-            if (LanguageManager.instance.LeftToRightRTL)
+            /*
+            if (LanguageManager.instance.LeftToRightRTL && @langText.alignment != TextAlignmentOptions.Center)
             {
-                if (@langText.isRightToLeftText && @langText.alignment != TextAlignmentOptions.Center)
+                if (@langText.isRightToLeftText )
                 {
                     @langText.alignment = TextAlignmentOptions.Right;
                 }
@@ -134,7 +135,7 @@ namespace LangManager
                     @langText.alignment = TextAlignmentOptions.Left;
 
                 }
-            }
+            }*/
             return text;
         }
         #endregion Utils

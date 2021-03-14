@@ -18,6 +18,7 @@ public class UIManager3D : MonoBehaviour
     public Font TitleFontDetail;
     public Material TitleMaterial;
     public Material TitleMaterialDetail;
+    public TextMeshPro LangManagerLogo;
 
     public void Awake()
     {
@@ -52,7 +53,28 @@ public class UIManager3D : MonoBehaviour
             // Debug.Log($"{langText.name} change to {text}");
         }
         text = UILangManager.GetString("This is a simple UI text", TitleFontDetail, simpletext);
+
+        LangManagerLogo.fontSharedMaterial.SetTexture(ShaderUtilities.ID_FaceTex, GetCurrentFlag());
+
         // Debug.Log($"{simpletext.name} change to {text}");
+    }
+
+    public Texture GetCurrentFlag()
+    {
+
+        var languageEntries = LanguageFlags.Flags;
+        for (int i = 0; i < languageEntries.Count; i++)
+        {
+
+            if  (LanguageManager.LanguagesList.Current == languageEntries[i].code)
+            {
+                Debug.Log("encontrador: "+languageEntries[i].code + languageEntries[i].flag.texture.name);
+                return languageEntries[i].flag.texture;
+            }
+
+        }
+
+        return null;
     }
     private void Start()
     {
