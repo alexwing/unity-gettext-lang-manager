@@ -46,7 +46,7 @@ public class UIManager3D : MonoBehaviour
                     text = UILangManager.GetString("Sunny Days!", TitleFont, langText, TitleMaterial);
                     break;
                 case "TextMesh Pro - Caption":
-                    text = UILangManager.GetString("This is a simple UI text", TitleFontDetail, langText, TitleMaterialDetail);
+                    text = UILangManager.GetString("Example of multiple linesof text created with TextMeshPro!", TitleFontDetail, langText, TitleMaterialDetail);
                     break;
 
             }

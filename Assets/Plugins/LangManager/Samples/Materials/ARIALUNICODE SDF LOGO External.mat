@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Logo3D
+  m_Name: ARIALUNICODE SDF LOGO External
   m_Shader: {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
-  m_ShaderKeywords: GLOW_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,58 +20,58 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 8b8c8a10edf94ddc8cc4cc4fcd5696a9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
-        m_Texture: {fileID: 8900000, guid: f8caea216d5e7af42872b30cd96a235f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FaceTex:
-        m_Texture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 17c350171f7a3ca479f830547c66d187, type: 3}
+        m_Scale: {x: 0.7, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
-        m_Texture: {fileID: 2800000, guid: 1cdc5b506b1a4a33a53c30669ced1f51, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6eb184de103d4b3f812b38561065192f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Ambient: 0.5
-    - _Bevel: 0.461
-    - _BevelClamp: 0
-    - _BevelOffset: -0.09
-    - _BevelRoundness: 0.615
-    - _BevelWidth: 0.001
+    - _Bevel: 0.572
+    - _BevelClamp: 0.785
+    - _BevelOffset: -0.329
+    - _BevelRoundness: 1
+    - _BevelWidth: -0.176
     - _BumpFace: 0
     - _BumpOutline: 0
     - _CullMode: 0
     - _Diffuse: 0.5
-    - _FaceDilate: 0.2
-    - _FaceShininess: 1
-    - _FaceUVSpeedX: 0
+    - _FaceDilate: 1
+    - _FaceShininess: 0.726
+    - _FaceUVSpeedX: 0.3
     - _FaceUVSpeedY: 0
-    - _GlowInner: 0.076
-    - _GlowOffset: 0.354
-    - _GlowOuter: 0.336
-    - _GlowPower: 0.75
-    - _GradientScale: 11
+    - _GlowInner: 0.305
+    - _GlowOffset: 0
+    - _GlowOuter: 0.7
+    - _GlowPower: 0.639
+    - _GradientScale: 10.49
     - _LightAngle: 3.142
     - _MaskID: 0
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineShininess: 1
-    - _OutlineSoftness: 0
+    - _OutlineSoftness: 1
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.4
+    - _OutlineWidth: 0.574
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 0.90909094
-    - _ScaleRatioB: 0.5568182
+    - _ScaleRatioA: 0.32760137
+    - _ScaleRatioB: 0
     - _ScaleRatioC: 0.90909094
     - _ScaleX: 1
     - _ScaleY: 1
@@ -91,7 +91,7 @@ Material:
     m_Colors:
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
     - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 1, g: 0.6344826, b: 0, a: 0.5019608}
+    - _GlowColor: {r: 1, g: 0.8314789, b: 0.06132078, a: 0.5019608}
     - _MaskCoord: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}

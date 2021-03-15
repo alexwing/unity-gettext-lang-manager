@@ -23,8 +23,8 @@ public class FlyCamera : MonoBehaviour
 
     private void Update()
     {
-        Cursor.visible = lockMovement;
-        Cursor.lockState = lockMovement ? CursorLockMode.None : CursorLockMode.Locked;
+        //Cursor.visible = lockMovement;
+     //   Cursor.lockState = lockMovement ? CursorLockMode.None : CursorLockMode.Locked;
 
         if (!lockMovement)
         {
