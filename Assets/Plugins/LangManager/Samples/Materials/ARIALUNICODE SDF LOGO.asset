@@ -89,24 +89,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Ambient: 0.5
-    - _Bevel: 0.572
-    - _BevelClamp: 0.785
-    - _BevelOffset: -0.329
+    - _Bevel: 0.229
+    - _BevelClamp: 0.601
+    - _BevelOffset: 0.066
     - _BevelRoundness: 1
-    - _BevelWidth: -0.176
+    - _BevelWidth: -0.131
     - _BumpFace: 0
     - _BumpOutline: 0
     - _ColorMask: 15
     - _CullMode: 0
     - _Diffuse: 0.5
     - _FaceDilate: 1
-    - _FaceShininess: 0.726
+    - _FaceShininess: 0.476
     - _FaceUVSpeedX: 0.3
     - _FaceUVSpeedY: 0
-    - _GlowInner: 0.305
-    - _GlowOffset: 0
-    - _GlowOuter: 0.7
-    - _GlowPower: 0.639
+    - _GlowInner: 0.384
+    - _GlowOffset: -1
+    - _GlowOuter: 0.446
+    - _GlowPower: 1
     - _GradientScale: 10
     - _LightAngle: 3.1416
     - _MaskSoftnessX: 0
@@ -123,7 +123,7 @@ Material:
     - _ScaleRatioC: 0.90909094
     - _ScaleX: 1
     - _ScaleY: 1
-    - _ShaderFlags: 0
+    - _ShaderFlags: 1
     - _Sharpness: 0
     - _SpecularPower: 2
     - _Stencil: 0
@@ -145,7 +145,7 @@ Material:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
     - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 1, g: 0.8314789, b: 0.06132078, a: 0.5019608}
+    - _GlowColor: {r: 0.5660378, g: 0.21847743, b: 0, a: 0.5019608}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
