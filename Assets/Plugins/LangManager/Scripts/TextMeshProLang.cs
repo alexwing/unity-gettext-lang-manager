@@ -1,3 +1,4 @@
+using Coffee.UIExtensions;
 using LangManager;
 using System.Threading.Tasks;
 using TMPro;
@@ -44,6 +45,14 @@ public class TextMeshProLang : TextMeshPro
     public async Task UpdateLangAsync()
     {
         await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
+
+        if (GetComponent<UIDissolve>())
+        {
+            await Task.Delay((int)(GetComponent<UIDissolve>().duration * 0.5f *1000));
+
+          
+        }
+
         text = UILangManager.GetString(LangKeyValue, font, this,fontMaterial);
     }
 }
