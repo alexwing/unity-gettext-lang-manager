@@ -171,36 +171,39 @@ namespace Coffee.UIExtensions
 		public virtual void SetVerticesDirty ()
 		{
 #if !NOT_USE_TMPRO
-			if (textMeshPro)
+			if (!textMeshPro.Equals(null))
 			{
-				foreach (var info in textMeshPro.textInfo.meshInfo)
+				if (!textMeshPro.textInfo.Equals(null))
 				{
-					var mesh = info.mesh;
-					if (mesh)
+					foreach (var info in textMeshPro.textInfo.meshInfo)
 					{
-						mesh.Clear ();
-						mesh.vertices = info.vertices;
-						mesh.uv = info.uvs0;
-						mesh.uv2 = info.uvs2;
-						mesh.colors32 = info.colors32;
-						mesh.normals = info.normals;
-						mesh.tangents = info.tangents;
-						mesh.triangles = info.triangles;
+						var mesh = info.mesh;
+						if (mesh)
+						{
+							mesh.Clear();
+							mesh.vertices = info.vertices;
+							mesh.uv = info.uvs0;
+							mesh.uv2 = info.uvs2;
+							mesh.colors32 = info.colors32;
+							mesh.normals = info.normals;
+							mesh.tangents = info.tangents;
+							mesh.triangles = info.triangles;
+						}
 					}
-				}
 
-				if (canvasRenderer)
-				{
-					canvasRenderer.SetMesh (textMeshPro.mesh);
-
-					GetComponentsInChildren (false, s_SubMeshUIs);
-					foreach (var sm in s_SubMeshUIs)
+					if (canvasRenderer)
 					{
-						sm.canvasRenderer.SetMesh (sm.mesh);
+						canvasRenderer.SetMesh(textMeshPro.mesh);
+
+						GetComponentsInChildren(false, s_SubMeshUIs);
+						foreach (var sm in s_SubMeshUIs)
+						{
+							sm.canvasRenderer.SetMesh(sm.mesh);
+						}
+						s_SubMeshUIs.Clear();
 					}
-					s_SubMeshUIs.Clear ();
+					textMeshPro.havePropertiesChanged = true;
 				}
-				textMeshPro.havePropertiesChanged = true;
 			}
 			else
 #endif

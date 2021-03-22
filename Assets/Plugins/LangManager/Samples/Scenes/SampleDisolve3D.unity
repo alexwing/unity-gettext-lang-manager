@@ -3660,8 +3660,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1746165351}
   - component: {fileID: 1746165349}
-  - component: {fileID: 1746165348}
   - component: {fileID: 1746165347}
+  - component: {fileID: 1746165348}
   m_Layer: 10
   m_Name: TextMesh Pro - Text
   m_TagString: Untagged
@@ -3689,7 +3689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: asdasda
+  m_text: This is a simple UI text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0dbbbba45612928409ba850367201548, type: 2}
   m_sharedMaterial: {fileID: -3170190818180007337, guid: 0dbbbba45612928409ba850367201548,
@@ -3730,7 +3730,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -3777,8 +3777,8 @@ MonoBehaviour:
   m_Version: 300
   m_EffectMaterial: {fileID: 0}
   m_EffectFactor: 0
-  m_Width: 0.571
-  m_Softness: 0.483
+  m_Width: 0.5
+  m_Softness: 0.5
   m_Color: {r: 0.3018868, g: 0.07777368, b: 0.0042719753, a: 1}
   m_ColorMode: 2
   m_NoiseTexture: {fileID: 2800000, guid: 04b808c8e7e2f114aa6bce179817e3b6, type: 3}

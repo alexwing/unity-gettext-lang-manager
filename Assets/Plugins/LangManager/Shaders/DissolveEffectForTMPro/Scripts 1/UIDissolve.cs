@@ -23,7 +23,7 @@ namespace Coffee.UIExtensions
 		//################################
 		[Tooltip("Current location[0-1] for dissolve effect. 0 is not dissolved, 1 is completely dissolved.")]
 		[FormerlySerializedAs("m_Location")]
-		[SerializeField] [Range(0, 1)] float m_EffectFactor = 0.5f;
+		[SerializeField] [Range(0, 1)] float m_EffectFactor = 0.0f;
 
 		[Tooltip("Edge width.")]
 		[SerializeField] [Range(0, 1)] float m_Width = 0.5f;
@@ -63,6 +63,19 @@ namespace Coffee.UIExtensions
 		/// </summary>
 		public override AdditionalCanvasShaderChannels requiredChannels { get { return AdditionalCanvasShaderChannels.TexCoord1 | AdditionalCanvasShaderChannels.TexCoord2; } }
 
+
+		protected override void OnValidate() {
+			try
+			{
+				base.OnValidate();
+			}
+			catch (Exception e)
+			{
+				Debug.Log($"UID -> OnValidate {e}");
+
+			}
+		
+		}
 		/// <summary>
 		/// Effect factor between 0(start) and 1(end).
 		/// </summary>
@@ -331,8 +344,12 @@ namespace Coffee.UIExtensions
 				vh.SetUIVertex(vertex, i);
 			}
 		}
+		public  void UpdateDirty() {
 
-		protected override void SetDirty()
+			Debug.Log("update dirty");
+			SetDirty();
+		}
+	protected override void SetDirty()
 		{
 			foreach(var m in materials)
 			{

@@ -16,10 +16,11 @@ public class UIManagerDissolve : MonoBehaviour
 
     public TextMeshPro LangManagerLogo;
 
-    public void Awake()
+    public void Start()
     {
         textMeshProLang.GetString("This is a simple UI text");
         EventManager.StartListening("LangChanged", UpdateLang);
+        LanguageManager.LoadLang(LanguageManager.LanguagesList.Current);
     }
 
 
@@ -32,10 +33,7 @@ public class UIManagerDissolve : MonoBehaviour
     {
         await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
 
-       currentLang.text = $"Language [{ LanguageManager.LanguagesList.Current }]";
-
-        textMeshProLang.GetComponent<UIDissolve>().Play();
-
+        currentLang.text = $"Language [{ LanguageManager.LanguagesList.Current }]";
 
         LangManagerLogo.fontSharedMaterial.SetTexture(ShaderUtilities.ID_FaceTex, GetCurrentFlag());
 
@@ -59,10 +57,7 @@ public class UIManagerDissolve : MonoBehaviour
 
         return null;
     }
-    private void Start()
-    {
-        LanguageManager.LoadLang(LanguageManager.LanguagesList.Current);
-    }
+
     public void NextLang()
     {
         LanguageManager.LoadLang(LanguageManager.LanguagesList.MoveNext);
