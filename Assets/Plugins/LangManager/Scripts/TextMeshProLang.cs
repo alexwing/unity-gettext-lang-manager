@@ -43,23 +43,13 @@ public class TextMeshProLang : TextMeshPro
 
     public async Task UpdateLangAsync(bool firstLoad)
     {
-        Debug.Log($"FirstLoad {FirstLoad}");    
         await LanguageManager.WaitUntil(() => LanguageManager.langChangeComplete);
 
         if (GetComponent<UIDissolve>())
         {
-            if (firstLoad)
-            {
-                GetComponent<UIDissolve>().effectFactor = 0;
-                GetComponent<UIDissolve>().UpdateDirty();
-            }
-            else
-            {
-
-
-                GetComponent<UIDissolve>().Play();
-                await Task.Delay((int)(GetComponent<UIDissolve>().duration * 0.5f * 1000));
-            }
+            GetComponent<UIDissolve>().firstLoad = firstLoad;
+            GetComponent<UIDissolve>().Play();
+            await Task.Delay((int)(GetComponent<UIDissolve>().duration * 0.5f * 1000));
         }
 
         text = UILangManager.GetString(LangKeyValue, font, this, fontMaterial);

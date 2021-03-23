@@ -3785,13 +3785,14 @@ MonoBehaviour:
   m_EffectArea: 0
   m_KeepAspectRatio: 1
   m_Player:
-    play: 0
+    play: 1
     loop: 0
     duration: 2
     loopDelay: 0
     updateMode: 0
   m_Duration: 1
   m_UpdateMode: 0
+  firstLoad: 1
 --- !u!23 &1746165349
 MeshRenderer:
   m_ObjectHideFlags: 0

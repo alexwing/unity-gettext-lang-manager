@@ -63,6 +63,7 @@ namespace Coffee.UIExtensions
 		/// </summary>
 		public override AdditionalCanvasShaderChannels requiredChannels { get { return AdditionalCanvasShaderChannels.TexCoord1 | AdditionalCanvasShaderChannels.TexCoord2; } }
 
+		public bool firstLoad = true;
 
 		protected override void OnValidate() {
 			try
@@ -101,21 +102,29 @@ namespace Coffee.UIExtensions
 		{
 			get { return m_EffectFactor; }
 			set
-			{ 
-				value = Mathf.Clamp(value, 0, 1);
-				if (!Mathf.Approximately(m_EffectFactor, value))
+			{
+				if (firstLoad)
 				{
-					m_EffectFactor = value;
-					SetDirty();
-				}
-				if (value < 0.5f)
-				{
-					m_EffectFactor = value * 2;
-
+					m_EffectFactor = 0f;
 				}
 				else
 				{
-					m_EffectFactor = (1 - value) * 2;
+
+					value = Mathf.Clamp(value, 0, 1);
+					if (!Mathf.Approximately(m_EffectFactor, value))
+					{
+						m_EffectFactor = value;
+						SetDirty();
+					}
+					if (value < 0.5f)
+					{
+						m_EffectFactor = value * 2;
+
+					}
+					else
+					{
+						m_EffectFactor = (1 - value) * 2;
+					}
 				}
 				SetDirty();
 			}
@@ -344,10 +353,10 @@ namespace Coffee.UIExtensions
 				vh.SetUIVertex(vertex, i);
 			}
 		}
-		public  void UpdateDirty() {
+		public  void CleanDirty() {
 
-			Debug.Log("update dirty");
-			SetDirty();
+			IsShouldUpgrade(0);
+
 		}
 	protected override void SetDirty()
 		{
@@ -390,6 +399,7 @@ namespace Coffee.UIExtensions
 		{
 			base.OnEnable();
 			_player.OnEnable(f => effectFactor = f);
+
 		}
 
 		protected override void OnDisable()
@@ -398,6 +408,7 @@ namespace Coffee.UIExtensions
 			MaterialCache.Unregister(_materialCache);
 			_materialCache = null;
 			_player.OnDisable();
+
 		}
 
 #if UNITY_EDITOR
