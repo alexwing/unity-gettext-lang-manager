@@ -49,6 +49,7 @@ public class TextMeshProLang : TextMeshPro
         {
             GetComponent<UIDissolve>().firstLoad = firstLoad;
             GetComponent<UIDissolve>().Play();
+            if(!firstLoad)
             await Task.Delay((int)(GetComponent<UIDissolve>().duration * 0.5f * 1000));
         }
 

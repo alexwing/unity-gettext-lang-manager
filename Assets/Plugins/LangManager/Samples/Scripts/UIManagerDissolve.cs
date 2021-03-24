@@ -12,6 +12,8 @@ public class UIManagerDissolve : MonoBehaviour
     public Text currentLang;
 
     public TextMeshProLang textMeshProLang;
+    public TextMeshProLang textMeshProLangText;
+    public TextMeshProLang textMeshProLangTextCircular;
 
 
     public TextMeshPro LangManagerLogo;
@@ -19,6 +21,8 @@ public class UIManagerDissolve : MonoBehaviour
     public void Start()
     {
         textMeshProLang.GetString("This is a simple UI text");
+        textMeshProLangText.GetString("This is an example of using the TextMesh");
+        textMeshProLangTextCircular.GetString("Example of multiple linesof text created with TextMeshPro!"); 
         EventManager.StartListening("LangChanged", UpdateLang);
         LanguageManager.LoadLang(LanguageManager.LanguagesList.Current);
     }

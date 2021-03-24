@@ -397,7 +397,16 @@ namespace Coffee.UIExtensions
 		/// </summary>
 		protected override void OnEnable()
 		{
-			base.OnEnable();
+			try
+			{
+
+
+				base.OnEnable();
+			}
+            catch 
+            {
+
+            }
 			_player.OnEnable(f => effectFactor = f);
 
 		}
