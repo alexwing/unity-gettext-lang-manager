@@ -184,7 +184,7 @@ namespace Coffee.UIExtensions
 							{
 								mesh.Clear();
 								mesh.vertices = info.vertices;
-								mesh.uv = info.uvs0;
+								mesh.uv = System.Array.ConvertAll(info.uvs0, uv => new Vector2(uv.x, uv.y));
 								mesh.uv2 = info.uvs2;
 								mesh.colors32 = info.colors32;
 								mesh.normals = info.normals;

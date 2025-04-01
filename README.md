@@ -16,19 +16,23 @@ Language flags code based on https://github.com/siberder/UnityCountryFlags
 
 Icons Flags from https://github.com/hampusborgos/country-flags
 
-### TODO
+## TODO
 
 - Custom font by language
 - Data json configure custom font
 - Data json define rtl languages
 - Add more public fonts 
 
-### Arabic Support
+## Requirements
+- Unity 6000.0.37f1 or higher
+- Unity UI 2.0.0 or higher
+
+## Arabic Support
 
 Initially the correct approach is to use TeshMeshPro's RTL support, but this contains errors when interpreting Arabic words. To solve this problem, we have opted for Abdullah Al-Imam's ArabicSupport library, https://github.com/AbdullahAlimam/Arabic-Support-for-Unity-UI, which seems to have all the necessary corrections to support the Arabic language, without the need to use RTL.
 
 
-### Asign Font charset to SDF FONTS
+## Asign Font charset to SDF FONTS
 
 By creating the character maps at runtime we avoid the need to create an SDF font, with the charset of each country.
 

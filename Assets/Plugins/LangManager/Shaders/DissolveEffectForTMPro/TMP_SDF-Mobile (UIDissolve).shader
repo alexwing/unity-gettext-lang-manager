@@ -91,8 +91,10 @@ SubShader {
 
 		#include "UnityCG.cginc"
 		#include "UnityUI.cginc"
-		#include "Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc"
-		
+		// Si prefieres usar la versión en paquete, asegúrate de que esté instalada; si no, actualiza la ruta:
+		//#include "Packages/com.unity.textmeshpro/Resources/Shaders/TMPro_Properties.cginc"
+		// Cambio: se utiliza la ruta local según el archivo real:
+		#include "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
 		#include "Assets/Plugins/LangManager/Shaders/CoffeeShaders/UI-Effect.cginc"
 		#pragma shader_feature __ ADD SUBTRACT FILL
 
